@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Builder(
         builder: (context) => MaterialApp.router(
-          title: 'Flutter Demo',
+          title: 'Aruna Web Blog',
           theme: ThemeData(primarySwatch: Colors.blue),
           routeInformationParser: _router.routeInformationParser,
           routeInformationProvider: _router.routeInformationProvider,
