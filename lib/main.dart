@@ -104,6 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
               controller: _searchController,
               onChanged: _onSearchChanged,
               decoration: InputDecoration(
+                hintText: 'Search post',
                 contentPadding: const EdgeInsets.only(top: 10, left: 10),
                 enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(25.0)),
