@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "772433694201",
+    "project_id": "aruna-web-blog",
+    "storage_bucket": "aruna-web-blog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772433694201:android:3c8955586989ad8b288128",
+        "android_client_info": {
+          "package_name": "com.aruna.blog.aruna_web_blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772433694201-gqlh1ka8e0d5msk3rjk3rqofv0npa08v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfj27DybUrDtEsvx4S_9GgmcHwDpX0ce8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772433694201-gqlh1ka8e0d5msk3rjk3rqofv0npa08v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "772433694201-t1mmslg1l21h2vlg5fgr0v6e0589pptv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.aruna.blog.arunaWebBlog"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
