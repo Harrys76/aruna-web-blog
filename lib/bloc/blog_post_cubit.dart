@@ -50,7 +50,11 @@ class BlogPostCubit extends Cubit<BlogPostState> {
           .where((element) =>
               element.title.toLowerCase().contains(keyword.toLowerCase()))
           .toList();
-      emit(BlogPostState.success(_filteredList));
+      if (_filteredList.isNotEmpty) {
+        emit(BlogPostState.success(_filteredList));
+      } else {
+        emit(const BlogPostState.empty());
+      }
     }
   }
 }
