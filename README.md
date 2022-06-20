@@ -1,6 +1,6 @@
 # aruna_web_blog
 
-A new Flutter project.
+Firebase Web Link: [https://aruna-web-blog.web.app/](https://aruna-web-blog.web.app/)
 
 ## Getting Started
 
